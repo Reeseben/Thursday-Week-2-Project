@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		B540066C26AA19EF00828942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540066B26AA19EF00828942 /* AppDelegate.swift */; };
 		B540066E26AA19EF00828942 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540066D26AA19EF00828942 /* SceneDelegate.swift */; };
-		B540067026AA19EF00828942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540066F26AA19EF00828942 /* ViewController.swift */; };
 		B540067326AA19EF00828942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B540067126AA19EF00828942 /* Main.storyboard */; };
 		B540067526AA19F000828942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B540067426AA19F000828942 /* Assets.xcassets */; };
 		B540067826AA19F000828942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B540067626AA19F000828942 /* LaunchScreen.storyboard */; };
+		B540068726AA1D2700828942 /* Chicken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540068626AA1D2700828942 /* Chicken.swift */; };
+		B540068A26AA217C00828942 /* ChickenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540068926AA217C00828942 /* ChickenController.swift */; };
+		B540068C26AA224B00828942 /* ChickenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540068B26AA224B00828942 /* ChickenTableViewController.swift */; };
+		B540068E26AA276500828942 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540068D26AA276500828942 /* DetailsViewController.swift */; };
+		B540069026AA36D300828942 /* GameCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540068F26AA36D300828942 /* GameCollectionViewController.swift */; };
+		B540069326AA56CC00828942 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540069226AA56CC00828942 /* GameCollectionViewCell.swift */; };
+		B540069526AA737A00828942 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540069426AA737A00828942 /* FilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B540066826AA19EF00828942 /* ProtocolsAndDelegatesPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolsAndDelegatesPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B540066B26AA19EF00828942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B540066D26AA19EF00828942 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B540066F26AA19EF00828942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B540067226AA19EF00828942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B540067426AA19F000828942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B540067726AA19F000828942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B540067926AA19F000828942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B540068626AA1D2700828942 /* Chicken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chicken.swift; sourceTree = "<group>"; };
+		B540068926AA217C00828942 /* ChickenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenController.swift; sourceTree = "<group>"; };
+		B540068B26AA224B00828942 /* ChickenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenTableViewController.swift; sourceTree = "<group>"; };
+		B540068D26AA276500828942 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B540068F26AA36D300828942 /* GameCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewController.swift; sourceTree = "<group>"; };
+		B540069226AA56CC00828942 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		B540069426AA737A00828942 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,10 @@
 		B540066A26AA19EF00828942 /* ProtocolsAndDelegatesPractice */ = {
 			isa = PBXGroup;
 			children = (
+				B540068426AA1D0E00828942 /* Models */,
+				B540068326AA1BA400828942 /* Controllers */,
+				B540068026AA1B6F00828942 /* Views */,
 				B540067F26AA1A0E00828942 /* Resources */,
-				B540066F26AA19EF00828942 /* ViewController.swift */,
-				B540067126AA19EF00828942 /* Main.storyboard */,
-				B540067626AA19F000828942 /* LaunchScreen.storyboard */,
 			);
 			path = ProtocolsAndDelegatesPractice;
 			sourceTree = "<group>";
@@ -73,6 +85,68 @@
 				B540067926AA19F000828942 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B540068026AA1B6F00828942 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B540069126AA56A600828942 /* CustomCells */,
+				B540068126AA1B7900828942 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B540068126AA1B7900828942 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B540067126AA19EF00828942 /* Main.storyboard */,
+				B540067626AA19F000828942 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B540068226AA1B8C00828942 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B540068B26AA224B00828942 /* ChickenTableViewController.swift */,
+				B540068D26AA276500828942 /* DetailsViewController.swift */,
+				B540068F26AA36D300828942 /* GameCollectionViewController.swift */,
+				B540069426AA737A00828942 /* FilterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B540068326AA1BA400828942 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B540068826AA216B00828942 /* ModelControllers */,
+				B540068226AA1B8C00828942 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B540068426AA1D0E00828942 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B540068626AA1D2700828942 /* Chicken.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B540068826AA216B00828942 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B540068926AA217C00828942 /* ChickenController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		B540069126AA56A600828942 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				B540069226AA56CC00828942 /* GameCollectionViewCell.swift */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B540067026AA19EF00828942 /* ViewController.swift in Sources */,
+				B540069326AA56CC00828942 /* GameCollectionViewCell.swift in Sources */,
+				B540068726AA1D2700828942 /* Chicken.swift in Sources */,
 				B540066C26AA19EF00828942 /* AppDelegate.swift in Sources */,
+				B540069526AA737A00828942 /* FilterViewController.swift in Sources */,
+				B540068C26AA224B00828942 /* ChickenTableViewController.swift in Sources */,
 				B540066E26AA19EF00828942 /* SceneDelegate.swift in Sources */,
+				B540068A26AA217C00828942 /* ChickenController.swift in Sources */,
+				B540068E26AA276500828942 /* DetailsViewController.swift in Sources */,
+				B540069026AA36D300828942 /* GameCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
