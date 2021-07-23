@@ -74,8 +74,8 @@ class ChickenTableViewController: UITableViewController {
                     "darnit",
                     "I agree I need more",
                     "Can you even have enough?",
-                    "Dagnit"
-                ]
+                    "Dangit"
+                ]œ
                 
                 let alert = UIAlertController(title: "You don't have enough chickens", message: "You don't have enough chickens to play this game", preferredStyle: .alert)
                 let okay = UIAlertAction(title: buttonMessages.randomElement(), style: .cancel, handler: nil)
